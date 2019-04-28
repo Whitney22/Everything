@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+ <title>New Omnivore</title>
+  <style>
+ 
+
+  #one{
+    margin-top: 250px;
+  }
+
+ .col1{
+  margin-left:600px;
+  margin-top: -445px;  
+
+
+ }
+
+.col2{
+  
+  margin-left:890px;
+  margin-top: -488px;
+}
+
+.col3{
+  margin-top:-170px;
+  margin-left:590px;
+}
+
+.col4{
+margin-top: -245px;
+margin-left: 900px;
+}
+
+.titles{
+  text-transform: uppercase;
+    font-display: font-family: 'Noto Sans', sans-serif;
+    color: #393b3b;
+    font-size:20px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+   
+
+
+}
+  .toppic{
+  margin-top:20px;
+  }
+  
+
+.toptitle{
+
+}
+
+
+  .topic{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 350px;
+    color: #babeba;
+    text-transform: uppercase;
+    font-display: font-family: 'Noto Sans', sans-serif;
+
+  }
+
+
+
+  @media screen and (max-width:959px) {
+      .side {
+          width:50%;
+      }
+      .title{ 
+          width: 50%;
+
+      }
+   
+.col{
+    width: 30%;
+} 
+
+  img{
+      width: 100%;
+  }
+
+  .toppic{
+      width:50%;
+  }
+ .toptitle{
+     width: 60%;
+ }
+ #navbar1{
+width:100%;
+ }
+}
+
+  @media screen and (max-width:640px) {
+      .side{
+          width:100%;
+      }
+      .col{
+          width:100%;
+
+        }
+        .col1, .col2, .col3, .col4{
+  width:100%;
+  margin-left: 5px;
+margin-top: 100px;
+}
+
+img{
+    width:100%;
+}
+
+.topic{
+width:100%;
+}
+
+.toppic{
+      width:100%;
+      margin-left: 0px;
+  }
+.maintitle{
+  width:20%;
+  font-size: 20px;
+}
+
+ .toptitle{
+     width: 100%;
+     margin-left: 5px;
+
+  }
+#navbar1{
+    width:100%;
+}
+}
+  </style>
+</head>
+<body>
+
+
+  <div class="w3-bar w3-border w3-light-grey" id="navbar1">
+  <a href="#" class="w3-bar-item w3-button">HOME</a>
+  <a href="#" class="w3-bar-item w3-button w3-hover-green">NEWS</a>
+  <a href="Members.html" class="w3-bar-item w3-button w3-hover-teal">BECOME A MEMBER</a>
+</div>
+
+<h1 class="topic">Top Animal Free Innovation News, Top of the Hour</h1>
+<hr>
+
+<div class="container">
+    <div class="row">
+      <div class="col">
+<img class="toppic" src="bklogo.jpg" width="50%" alt=""> <br>
+<a class="titles" href="https://www.cbsnews.com/news/burger-king-impossible-whopper-burger-king-launches-vegan-burger-on-april-fools-day/"  target="_blank" >Burger King Testing Plant-Based
+  Impossible Burgers </a>
+  <h1 class="toptitle">
+  </h1>
+      </div>
+  <br>
+  <br>
+
+
+ <br>
+ <br>
+
+
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col1">
+      <img src="computer.png" width="200px" alt=""><br><br>
+      <a class="maintitle" href= <a href="https://www.foodnavigator-usa.com/Article/2019/04/02/TerViva-raises-20m-to-fuel-plant-based-protein-ambitions-with-vertical-soy"  target="_blank">Startup Raises $20 million to <br> Make Milk from Pongamia Seeds
+      </a>
+<br>
+<br>
+    </div>
+
+  
+
+<br>
+<br>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col2">
+                  <img src="computer.png" width="200px" alt="">
+                  <a href="https://www.businesswire.com/news/home/20190416006013/en/Kroger%C2%AE-Introduces-Don-Lee-Farms%C2%AE-Organic-Plant-Based"  target="_blank"><br>Don Lee Plant-Based Burgers to Be Sold in 2,000 Meat Departments</a>
+</div>
+    <br>
+    <br>
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col3">
+                      <img src="computer.png" width="200px" alt="">
+                      <a href="#">  Section 1.10.33 of "de Finibus Bonorum et Malorum"fjidfsknfskskffs
+                        Cicero in
+                      "At vero eos et accusamus</a>
+        <br>
+        <br>
+                    </div>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col4">
+                          <img src="computer.png" width="200px" alt="">
+                          <a href="#"> <br> Section 1.10.33 of "de Finibus Bonorum et Malorum"fjidfsknfskskffs
+                            Cicero in
+                          "At vero eos et accusamus</a>
+                <br>
+                <br>
+                        </div>
+            
+
+
+    <div class="container">
+      <img src="computer.png" width="200px" alt="">
+      <a href="#"> </a>
+
+    </div>
+
+
+
+  </div>
+
+</div>
+<br>
+<br>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
