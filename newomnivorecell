@@ -1,0 +1,410 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="styling2.css">
+   <title>New Omnivore</title>
+   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+   <script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+       google_ad_client: "ca-pub-5838499683764650",
+       enable_page_level_ads: true
+     });
+   </script>
+    <title>New Omnivore</title>
+    <style>
+    .headerimage{
+    width:100%;
+    margin-left: 20px;
+}
+
+.hr1{
+    margin-top:2px;
+}
+
+.topic{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 6px;
+    margin-top: 10px;
+    color: #babeba;
+    text-transform: uppercase;
+    font-display: font-family: 'Noto Sans', sans-serif;
+   ;}
+
+/* Nav */
+.navimg{
+  margin-top: -10px;
+  margin-left:-30px;
+}
+
+.current{
+    margin-left: 5px;
+}
+.alertbanner{
+  width: 110%;
+}
+
+
+         header li{
+           color: #494a47;
+          text-decoration: none;;
+          text-transform: uppercase;
+          font-size: 14px;
+          font-display: font-family: 'Noto Sans', sans-serif;
+        }
+        
+
+         header{
+          float: left;
+          margin-top: 10px;
+        text-transform: uppercase;
+        }
+
+
+         ul a{
+
+          color: #494a47;
+        }
+        
+
+         header h1{
+          margin: 0;
+        }
+
+
+         ul a:hover{
+          color: green;
+          font-weight: bold;
+          text-decoration: none;
+        }
+
+
+         li{
+          float: left;
+          display: inline;
+          padding: 0 20px 0 20px;}
+
+
+          
+
+          header{
+              margin-top: 25px;
+          }
+
+          .titles{
+            text-transform: uppercase;
+               font-family: 'Noto Sans', sans-serif;
+              color: red;
+              font-size:32px;
+              font-weight:800;
+          font-weight:bold;
+              font-family: 'Open Sans', sans-serif;
+              margin-top: 50px;
+              margin-left:20px;
+            text-align:center;
+            }
+            
+              
+            .toppic{
+            margin-top:55px;
+            margin-left:50px;
+           width:100%px;
+          
+            }
+
+            #primary1{
+              text-transform: uppercase;
+                font-family:'Noto Sans', sans-serif;
+                color: #494a47;
+                font-size:17px;
+                font-weight:800;
+                font-family: 'Open Sans', sans-serif;
+              text-align:center;
+                
+            }
+
+            
+ .col1{
+  margin-left:45px;
+  margin-top: 105px;  
+  text-align: center;
+
+
+ }
+
+ .col2{
+  
+  margin-left:35px;
+  margin-top: 55px;
+  text-align: center;
+}
+
+
+.col3{
+  margin-top:50px;
+  margin-left:65px;
+  text-align: center;
+}
+        
+.col4{
+  margin-top: 50px;
+  margin-left: 55px;
+  text-align: center;
+  }
+          
+          
+.olderarticles{
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 6px;
+  margin-top: 100px;
+  color: #babeba;
+  text-transform: uppercase;
+ font-family: 'Noto Sans', sans-serif;
+ 
+ }
+  .oldpic{
+margin-left:100px;
+text-align: center;
+  }
+
+</style>
+</head>
+<body>
+        <nav>
+                <ul>
+                 <li class="current"><a href="index.html">Home</a></li>
+                  <li class="current"> <a id="current1" href="newsletterinfo.html">Newsletter</a></li>
+                  <li class="current"> <a id="current2" href="Contact/">Contact/Tips</a></li>
+            
+                </ul>
+              </nav>
+    <header>
+        <div class="headerimage">
+                <img src="NEW OMNIVORE.png" width="100%"  alt="">
+                    </div>
+                    <h1 class="topic"> &nbsp; Animal.Free.Innovation.</h1>
+
+                    <hr class="hr1">
+                </header>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                
+                <div class="alertbanner">
+                        <marquee behavior="alternate" bgcolor="#bb3434" direction="left" height:="" 
+                        loop="7" scrollamount="1" scrolldelay="2" width="100%">
+                        <span style="font-size: 20px;color:#FFFFFF">
+                        Latest news! Latest news! Latest news! Latest news!</span></marquee>
+                       </div>
+
+                       <div class="container"  id="primary">
+                        <div class="row">
+                    <img class="toppic" src="tyson1.png"  alt="">
+                     <a  class="titles" href="https://www.cnn.com/2019/05/06/business/tyson-alternative-protein/index.html">
+                      Tyson's First Plant-Based Meat <br> Coming This Summer</a>
+                    
+                          </div> 
+
+                          
+<div class="container" id="secondary">
+  <div class="row" id="secondary">
+    <div class="col1" id="secondary">
+      <img class="img1" src="beyondmeat2.jpg" width="220px" alt=""><br><br>
+      <a id="primary1" href="https://ktla.com/2019/05/02/beyond-meat-goes-public-as-u-s-sales-of-plant-based-meats-steadily-rise/"  target="_blank">Beyond Meat's Value Skyrockets to $3.8 Billion 
+
+<!-- Msay 6th 2019 -->
+      </a>
+      <p>May 3, 2019</p>
+<br>
+<br>
+    </div>
+
+      
+<br>
+    
+<div class="container" id="secondary">
+  <div class="row" id="secondary">
+    <div class="col2" id="secondary">
+      <img class="img1" src="wholefoods.jpg"   width="200px" alt="">
+      <a id="primary1" href="https://news.google.com/articles/CBMiRWh0dHBzOi8vdGhlc3Bvb24udGVjaC9nb29kLWNhdGNocy1wbGFudC1iYXNlZC10dW5hLXN3aW1zLWludG8tcmV0YWlsL9IBAA?hl=en-US&gl=US&ceid=US%3Aen"  target="_blank"><br><br> Plant-Based Tuna Lands in Whole Foods  
+      </a>
+     <p>Feb 20, 2019</p>
+      
+
+    </div>
+
+    <div class="container" id="secondary">
+      <div class="row"id="secondary">
+        <div  class="col3" id="secondary">
+          <img class="img1" src="dunkin.png" width="240px" alt="">
+          <a id="primary1" href="https://www.cnbc.com/2019/05/03/dunkin-ceo-were-going-to-look-at-plant-based-proteins.html"> <br>
+            Dunkin' May Introduce <br>&nbsp; Plant-Based Meat <br> &nbsp; Breakfast Sandwich
+            <!-- may 3rd -->
+           </a>  
+<br>
+<br>
+        </div>
+
+        <div class="container" id="secondary">
+          <div class="row"  id="secondary">
+            <div class="col4" id="secondary"
+            >
+              <img class="img1" src="ikea.jpg" width="165px" alt=""> 
+           <a id="primary1" href="https://www.today.com/food/ikea-announces-development-new-plant-based-meatball-t153567
+           ">
+            <br> IKEA To Introduce a Beefy Plant-Based Meatball
+          </a>
+
+    <br> 
+    <br>
+            </div>
+
+
+            <h4 class="olderarticles">Older Articles</h4>
+            <hr>
+
+
+            <div class="container" id="secondary">
+                <div class="row"  id="secondary">
+                  <div class="col4" id="secondary"
+                  >
+                    <img class="img1" src="ikea.jpg" width="165px" alt=""> 
+                 <a id="primary1" href="https://www.today.com/food/ikea-announces-development-new-plant-based-meatball-t153567
+                 ">
+                  <br> IKEA To Introduce a Beefy Plant-Based Meatball
+                </a>
+      
+          <br> 
+          <br>
+                  </div>
+                          
+                  <div class="container" id="secondary">
+                      <div class="row" id="secondary">
+                        <div class="col1" id="secondary">
+                          <img class="img1" src="litelife.jpg" width="220px" alt=""><br><br>
+                          <a id="primary1" href="https://www.foodnavigator-usa.com/Article/2019/05/06/Lightlife-plant-based-protein-enter-thousands-of-new-retail-locations"  target="_blank">Lightlife's New "Bleeding" <br>s Burger &nbsp;Coming to Thousands <br> of Meat Aisles
+                    <!-- Msay 6th 2019 -->
+                          </a>
+                    <br>
+                    <br>
+                        </div>
+                    
+                          
+                    <br>
+                        
+                    <div class="container" id="secondary">
+                      <div class="row" id="secondary">
+                        <div class="col2" id="secondary">
+                          <img class="img1" src="dq.jpg"    width="220px" alt="">
+                          <a id="primary1" href="https://news.google.com/articles/CAIiEA425IHgnbiO0IYpJzCvIogqGQgEKhAIACoHCAowocv1CjCSptoCMPrTpgU?hl=en-US&gl=US&ceid=US%3Aen"  target="_blank"><br><br> Dairy Queen is Testing Dairy-Free Ice Cream 
+                          </a>
+                          <!-- May 4th 19' -->
+                          
+                    <br>
+                    <br>
+                        </div>
+                    
+                        <div class="container" id="secondary">
+                          <div class="row"id="secondary">
+                            <div  class="col3" id="secondary">
+                              <img class="img1" src="dunkin.png" width="240px" alt="">
+                              <a id="primary1" href="https://www.cnbc.com/2019/05/03/dunkin-ceo-were-going-to-look-at-plant-based-proteins.html"> <br>
+                                Dunkin' May Introduce <br>&nbsp; Plant-Based Meat <br> &nbsp; Breakfast Sandwich
+                                <!-- may 3rd -->
+                               </a>  
+                    <br>
+                    <br>
+                            </div>                                                                 <br>
+                                                    
+<div class="container" id="secondary">
+    <div class="row" id="secondary">
+      <div class="col1" id="secondary">
+        <img class="img1" src="bklogo.jpg" width="220px" alt=""><br><br>
+        <a id="primary1" href="https://www.foodnavigator-usa.com/Article/2019/05/06/Lightlife-plant-based-protein-enter-thousands-of-new-retail-locations"  target="_blank">It's Official:The Impossible Whopper is Coming to Burger King's Everywhere
+        </a>
+  <!-- Msay 6th 2019 -->
+        </a>
+  <br>
+  <br>
+      </div>
+  
+        
+  <br>
+      
+  <div class="container" id="secondary">
+    <div class="row" id="secondary">
+      <div class="col2" id="secondary">
+        <img class="img1" src="shiok.png"    width="200px" alt="">
+        <a id="primary1" href="https://news.google.com/articles/CBMiRGh0dHBzOi8vdGhlc3Bvb24udGVjaC9zaGlvay1tZWF0cy1yYWlzZXMtNC02bS1mb3ItY2VsbC1iYXNlZC1zaHJpbXAv0gEA?hl=en-US&gl=US&ceid=US%3Aen"  target="_blank"><br>  Start-Up Receives $4.6 Million to Create Animal-Free Shrimp 
+        </a>
+        <!-- May 4th 19' -->
+        
+  <br>
+  <br>
+      </div>
+  
+      <div class="container" id="secondary">
+        <div class="row"id="secondary">
+          <div  class="col3" id="secondary">
+            <img class="img1" src="clarafoods.jpg" width="220px" alt="">
+            <a id="primary1" href="https://www.forbes.com/sites/michaelpellmanrowland/2019/04/25/clarafoods/#3a34477b637a"  target="_blank"> <br> <br>
+              Clara Foods Makes Huge Deal to Launch Chicken-Free Egg Whites
+              <!-- may 3rd -->
+             </a>  
+          </div>
+                              
+<div class="container" id="secondary">
+    <div class="row" id="secondary">
+      <div class="col1" id="secondary">
+        <img class="img1" src="impossible.png" width="220px" alt=""><br><br>
+        <a id="primary1" href="https://www.thestar.com.my/tech/tech-news/2019/01/15/impossible-burger-named-best-product-launch-at-ces-2019/" target="_blank">Impossible Foods Debuts New and Improved "2.0" Burger"
+        </a>
+  <!-- Msay 6th 2019 -->
+        </a>
+  <br>
+  <br>
+      </div>
+  
+        
+  <br>
+      
+  <div class="container" id="secondary">
+    <div class="row" id="secondary">
+      <div class="col2" id="secondary">
+        <img class="img1" src="dq.jpg"    width="220px" alt="">
+        <a id="primary1" href="https://news.google.com/articles/CAIiEA425IHgnbiO0IYpJzCvIogqGQgEKhAIACoHCAowocv1CjCSptoCMPrTpgU?hl=en-US&gl=US&ceid=US%3Aen"  target="_blank"><br>Dairy Queen is Testing Dairy-Free Ice Cream 
+        </a>
+        <!-- May 4th 19' -->
+        
+  <br>
+  <br>
+      </div>
+  
+      <div class="container" id="secondary">
+        <div class="row"id="secondary">
+          <div  class="col3" id="secondary">
+            <img class="img1" src="publix.jpg" width="23s0px" alt="">
+            <a id="primary1" href="https://www.businesswire.com/news/home/20190416006013/en/Kroger%C2%AE-Introduces-Don-Lee-Farms%C2%AE-Organic-Plant-Based"  target="_blank"> <br>
+              Don Lee Plant-Based Burgers to Be Sold in 2,000 Meat Departments
+             </a>  
+  <br>
+  <br>
+          </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
