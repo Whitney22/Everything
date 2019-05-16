@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="styling.css">
+ <title>New Omnivore</title>
+ <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ <script>
+(adsbygoogle = window.adsbygoogle || []).push({
+     google_ad_client: "ca-pub-5838499683764650",
+     enable_page_level_ads: true
+   });
+ </script>
+ 
+<style>
+
+
+
+body{
+  margin: 0 0 12px;
+    padding: 0;
+    list-style-type: none;
+    font-family: "adelle",serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #5a5a5a;
+  }
+
+  
+.col{
+  flex: 1;
+  line-height: 20px;
+  padding: 8px 15px 10px;
+  box-sizing: border-box;
+  border-bottom-left-radius: 3px 0px 3px 0px;
+  border-bottom-right-radius: 3px;
+  border: solid .7px #e5e5e5;
+           
+
+         }
+/* Nav bar */
+        
+.navimg{
+  margin-top: -30px;
+  margin-left:-30px;
+}
+
+         header a li{
+           color: #494a47;
+          text-decoration: none;;
+          text-transform: uppercase;
+          font-size: 14px;
+          font-display: font-family: 'Noto Sans', sans-serif;
+        }
+        
+
+         header{
+          float: left;
+          margin-top: 10px;
+        
+        }
+
+
+         header a{
+
+          color: #494a47;
+        }
+        
+
+         header h1{
+          margin: 0;
+        }
+
+
+         header a:hover{
+          color: green;
+          font-weight: bold;
+          text-decoration: none;
+        }
+
+
+         li{
+          float: left;
+          display: inline;
+          padding: 0 20px 0 20px;}
+
+          /* Columns */
+
+
+ .col1{
+  margin-left:600px;
+  margin-top: -600px;  
+
+
+ }
+
+.col2{
+  
+  margin-left:890px;
+  margin-top: -620px;
+}
+
+.col3{
+  margin-top:-355px;
+  margin-left:600px;
+}
+
+.col4{
+margin-top: -365px;
+margin-left: 900px;
+}
+
+
+a{
+  text-transform: uppercase;
+    font-family:'Noto Sans', sans-serif;
+    color: #494a47;
+    font-size:17px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+  text-align:start;
+    
+}
+
+.oldersarticles{
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 6px;
+  margin-top: 200px;
+  color: #babeba;
+  text-transform: uppercase;
+ font-family: 'Noto Sans', sans-serif;
+ ;}
+
+
+
+
+.titles{
+  text-transform: uppercase;
+     font-family: 'Noto Sans', sans-serif;
+    color: red;
+    font-size:32px;
+    font-weight:800;
+font-weight:bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 350px;
+    margin-left:-525px;
+  text-align:center;
+  }
+  
+    
+  .toppic{
+  margin-top:10px;
+ width:470px;
+
+  }
+  
+
+
+
+  .topic{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 6px;
+    margin-top: 300px;
+    color: #babeba;
+    text-transform: uppercase;
+    font-display: font-family: 'Noto Sans', sans-serif;
+   ;}
+    
+
+    
+
+#newsletter{
+  padding: 15px;
+  color: #babeba;
+  background: #e9eec9;
+  margin-left: 650px;
+}
+
+
+#newsletter h1{
+  float: left;
+  margin-top: -7px;
+  margin-left: 10px;
+
+
+
+}
+
+#subscribe{
+  margin-left:770px;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: none;
+}
+
+/* ipad */
+@media screen and (max-width: 1060px) {
+ 
+  .alertbanner{
+    width: 100%;
+    margin-left:100px;
+  }
+
+
+  .col1, .col2, .col3, .col4{
+
+    margin-left:20px;
+    margin-top:5px;
+  width: 455%;
+  text-align: center;
+}
+
+.current{
+
+  margin-left:100px;
+}
+
+
+.img1{
+  width:120px;
+  height: 100px;
+}
+
+
+  .titles{
+  margin-top: 170px;
+  font-size: 45px;
+ }
+
+  .toppic{
+    width:700px;
+    margin-left: 150px;
+  }
+}
+/* laptop with touch */
+@media screen and (max-width: 1280px) {
+  
+
+
+
+
+/* ipad pro */
+@media screen and (max-width: 1366px) {
+
+  .alertbanner{
+    width: 200%;
+  }
+
+
+  .col1, .col2, .col3, .col4{
+
+    margin-left:20px;
+    margin-top:5px;
+  width: 455%;
+  text-align: center;
+}
+
+.current{
+
+  margin-left:100px;
+}
+
+ header{
+line-height: 250px;
+ }
+
+
+.img1{
+  width:120px;
+  height: 100px;
+}
+
+
+#subscribe{
+  display: none;
+}
+
+  .titles{
+  margin-top: 140px;
+  font-size: 45px;
+  margin-left: 150px;
+ }
+
+  .toppic{
+    width:700px;
+    margin-left: 150px;
+  }
+}
+
+
+
+/* iphone 6/7/8 */
+@media screen and (max-width: 768px) {
+
+
+.current{
+  margin-top:-555px;
+  margin-left:-50px;
+
+}
+
+#current1{
+  margin-top:-555px;
+  margin-left:110px;
+
+}
+
+#current2{
+  margin-top:-555px;
+  margin-left: 280px;
+
+}
+
+  img{
+    width:10%;
+  }
+  
+
+  marquee{
+    width:50%;
+  }
+
+
+
+.navimg{
+  width:130%;
+  margin-left: -65px;
+}
+  
+
+  .toppic{
+    width:100%;
+    margin-left:30px;
+  }
+  
+  .titles{
+    margin-top: 40px;  
+  margin-left:10px;}
+
+}
+
+
+
+
+ /* Galaxy S5 */
+@media only screen
+and (max-width: 360px)
+and (max-height: 640px)
+and (orientation:portrait) {
+
+  
+
+  .titles{
+    margin-left:-5px;
+  
+  }
+
+
+  @media screen and (max-width: 1920px) {
+
+
+    .current{
+      margin-left:1200px;
+    }
+  }
+
+  
+ <style>
+ </style>
+</head>
+<body>
+
+<header>
+  
+  <nav>
+    <ul>
+     <li><img class="navimg" src="NEW OMNIVORE.png" width="230px" alt=""></li>
+      <li class="current"><a href="index.html">Home</a></li>
+      <li class="current"> <a id="current1" href="newsletterinfo.html">Newsletter</a></li>
+      <li class="current"> <a id="current2" href="Contact">Contact</a></li>
+
+    </ul>
+  </nav>
+</header>
+
+
+  <h1 id="subscribe"><a href="newsletterinfo.html"> Subscribe to our Newsletter</h1> 
+  
+    </div>
+    </div>
+
+
+    
+
+
+<h1 class="topic"> &nbsp; Animal.Free.Innovation.</h1>
+<hr width="455px">
+
+<div class="alertbanner">
+    <marquee behavior="alternate" bgcolor="#bb3434" direction="left" height:="" 
+    loop="7" scrollamount="1" scrolldelay="2" width="50%">
+    <span style="font-size: 20px;color:#FFFFFF">
+    Latest news! Latest news! Latest news! Latest news!</span></marquee>
+   </div>
+   
+<br>
+<br>
+<br>  
+<div class="container"  id="primary">
+    <div class="row">
+<img class="toppic" src="tyson1.png"  alt="">
+ <a  class="titles" href="https://www.cnn.com/2019/05/06/business/tyson-alternative-protein/index.html">
+  Tyson's First Plant-Based Meat <br> Coming This Summer</a>
+
+      </div> 
+</div>
+
+
+  <br>
+  <br>
+  
+
+ <br>
+ <br>
+
+
+<br>
+
+<div class="container" id="secondary">
+  <div class="row" id="secondary">
+    <div class="col1" id="secondary">
+      <img class="img1" src="litelife.jpg" width="220px" alt=""><br><br>
+      <a id="primary1" href="https://www.foodnavigator-usa.com/Article/2019/05/06/Lightlife-plant-based-protein-enter-thousands-of-new-retail-locations"  target="_blank">Lightlife's New "Bleeding" <br>s Burger &nbsp;Coming to Thousands <br> of Meat Aisles
+<!-- Msay 6th 2019 -->
+      </a>
+<br>
+<br>
+    </div>
+  
+    id="primary1"
+<br>
+    
+            <div class="container" id="secondary">
+              <div class="row" id="secondary">
+                <div class="col2" id="secondary">
+                  <img class="img1" src="dq.jpg"    width="200px" alt="">
+                  <a href="https://news.google.com/articles/CAIiEA425IHgnbiO0IYpJzCvIogqGQgEKhAIACoHCAowocv1CjCSptoCMPrTpgU?hl=en-US&gl=US&ceid=US%3Aen"  target="_blank"><br>Dairy Queen is Testing Dairy-Free Ice Cream 
+                  </a>
+                  <!-- May 4th 19' -->
+                  
+    <br>
+    <br>
+                </div>
+                <div class="container" id="secondary">
+                  <div class="row"id="secondary">
+                    <div  class="col3" id="secondary">
+                      <img class="img1" src="dunkin.png" width="240px" alt="">
+                      <a  href="https://www.cnbc.com/2019/05/03/dunkin-ceo-were-going-to-look-at-plant-based-proteins.html"> <br>
+                        Dunkin' May Introduce <br>&nbsp; Plant-Based Meat <br> &nbsp; Breakfast Sandwich
+                        <!-- may 3rd -->
+                       </a>
+                    
+                      
+        <br>
+        <br>
+                    </div>
+                    <div class="container" id="secondary">
+                      <div class="row"  id="secondary">
+                        <div class="col4" id="secondary"
+                        >
+                          <img class="img1" src="ikea.jpg" width="165px" alt=""> 
+                       <a href="https://www.today.com/food/ikea-announces-development-new-plant-based-meatball-t153567
+                       ">
+                        <br> IKEA To Introduce a Beefy Plant-Based Meatball
+                      </a>
+
+                <br> 
+                <br>
+                        </div>
+
+
+
+
+                                               <!-- bottom columns -->
+                                               
+
+<h4 class="olderarticles">Older Articles</h4>
+<hr>
+
+
+<div class="container"  id="secondary">
+  <div class="row" id="secondary">
+      <div class="col" id="secondary">
+<img src="bklogo.jpg" width="170px;" alt="">
+<a  id="sidetitles" href="">It's Official:The Impossible Whopper is Coming to Burger King's Everywhere
+</a>
+    </div> 
+
+<div class="container" id="secondary">
+  <div class="row" id="secondary">
+    <div class="col" id="secondary">
+      <img class="img1" src="shiok.png" width="270px" alt="">
+      <a id="sidetitles" href="https://news.google.com/articles/CBMiRGh0dHBzOi8vdGhlc3Bvb24udGVjaC9zaGlvay1tZWF0cy1yYWlzZXMtNC02bS1mb3ItY2VsbC1iYXNlZC1zaHJpbXAv0gEA?hl=en-US&gl=US&ceid=US%3Aen"  target="_blank"> Start-Up Receives $4.6 Million to Create Animal-Free Shrimp
+        <!-- april 29th 2019 -->
+      </a>
+<br>
+<br>
+    </div>
+  
+
+
+    
+  </div>
+  <div class="container" id="secondary">
+    <div class="row"  id="secondary">
+      <div class="col" id="secondary">
+        <img class="sidetitles" src="impossible.png" width="165px" alt=""> 
+     <a href="https://www.thestar.com.my/tech/tech-news/2019/01/15/impossible-burger-named-best-product-launch-at-ces-2019/">Impossible Foods Debuts New and Improved "2.0" Burger"</a>
+
+<br> 
+<br>
+      </div>
+    
+    <div class="container" id="secondary">
+      <div class="row" id="secondary">
+        <div class="col" id="secondary">
+          <img class="sidetitles" src="clarafoods.jpg" width="170px" alt="">
+          <a href="https://www.forbes.com/sites/michaelpellmanrowland/2019/04/25/clarafoods/#3a34477b637a"  target="_blank">Clara Foods Makes Huge Deal to Launch Chicken-Free Egg Whites </a>
+          <!-- april 25th 19' -->
+          
+<br>
+<br>
+        </div>
+
+                      <div class="container"  id="secondary">
+                        <div class="row" id="secondary">
+                          <div class="col" id="secondary">
+                            <img src="publix.jpg" width="200px" alt="">
+                            <a id="sidetitles"  href="https://www.businesswire.com/news/home/20190416006013/en/Kroger%C2%AE-Introduces-Don-Lee-Farms%C2%AE-Organic-Plant-Based"  target="_blank">Don Lee Plant-Based Burgers to Be Sold in 2,000 Meat Departments</a>
+                            
+                          <br>
+              <br>
+                      </div>
+
+                        <div class="container"  id="secondary">
+                          <div class="row" id="secondary">
+                            <div class="col" id="secondary">
+                              <img src="stockmarket.jpg" width="200px" alt="">
+                              <a id="sidetitles"  href="https://www.cnbc.com/2018/10/17/beyond-meat-vegan-food-company-taps-investment-banks-for-ipo.html">
+                              Beyond Meat Prepares to Launch Historic IPO</a>
+                              
+                            <br>
+                <br>
+                        </div>
+
+                        <br>
+                      <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="container"  id="secondary">
+                      <div class="row" id="secondary">
+                        <div class="col" id="secondary">
+                          <img src="gfi.jpg" width= "200px" alt=""><a id="sidetitles" href=https://www.gfi.org/plant-based-cell-based-meat-mooc">
+                             &nbsp; GFI Launches World's First Open Online Course in Animal-Free Meat"
+                        </a>
+                        <br>
+            <br>
+                    </div>
+
+                    
+
+
+                    <br>
+
+                        <div class="container"  id="secondary">
+                          <div class="row" id="secondary">
+                            <div class="col" id="secondary">
+                              <img src="pongamia.jpg" width= "200px" alt=""><a id="sidetitles" href="https://www.foodnavigator-usa.com/Article/2019/04/02/TerViva-raises-20m-to-fuel-plant-based-protein-ambitions-with-vertical-soy"  target="_blank"> &nbsp;Startup Raises $20 million to Make Milk from Pongamia Seeds
+                              </a>
+                            <br>
+                <br>
+                        </div>
+                      <br>
+                      <br>
+                    <br>
+                      
+
+                        <div class="container"  id="secondary">
+                          <div class="row" id="secondary">
+                            <div class="col" id="secondary">
+                              <img src="eggs.jpg" width= "200px" alt=""><a id="sidetitles" href="https://www.foodingredientsfirst.com/news/cracking-up-brazil-based-grupo-mantiqueira-launches-plant-based-egg-alternative.html">
+                              Brazil's Largest Egg Company Has Launched Plant-Based Eggs
+                            </a>
+                            <br>
+                <br>
+                        </div>
+            
+
+                      <br>
+                      <br>
+                    <br>
+                            <div class="container" id="secondary">
+                              <div class="row"id="secondary">
+                                <div class="col"id="secondary"> 
+                                  <img src="blaze pizza.png" width="200px" alt=""><a id="sidetitles" href="https://www.chewboom.com/2019/04/19/blaze-pizza-debuts-new-vegan-spicy-chorizo-topping/">Blaze Pizza Now Offering Plant-Based Chorizo
+                                  </a>
+                                  
+                                  <br>
+                                  <br>
+                                          </div>
+                              
+                  
+                                        <br>
+                                        <br>
+                                      <br>
+                                <div class="container" id="secondary">
+                                  <div class="row" id="secondary">
+                                    <div class="col" id="secondary">
+                                      <img src="qdoba.jpg" width="200px" alt=""><a id="sidetitles" href="https://thespoon.tech/qdoba-expanding-impossible-meat-nationwide/">
+                                      After Successful Test, Qdoba Expands "Impossible" Meat to All Locations
+
+                                    </a>     
+                                    <br>
+                <br>
+                        </div>
+            
+
+                      <br>
+                      <br>
+                    <br>      
+                                    <div class="container" id="secondary">
+                                      <div class="row" id="secondary">
+                                        <div class="col" id="secondary">
+                                          <img src="deltaco.png" width="170px" alt=""><a id="sidetitles" href="https://www.qsrmagazine.com/news/del-taco-launches-beyond-meat-tacos-nationwide">
+                                    Del Taco Becomes First Mexican Fast-Food Chain to Offer Plant-Based Meat
+                                  </a>
+                                  <br>
+                <br>
+                        </div>
+            
+
+                      <br>
+                      <br>
+                    <br>
+                                               <div class="container" id="secondary">
+                                          <div class="row" id="secondary">
+                                            <div class="col" id="secondary">
+                                              <img src="carlsjr.png" width="170px" alt=""><a id="sidetitles" href="https://www.cnbc.com/2018/10/17/beyond-meat-vegan-food-company-taps-investment-banks-for-ipo.html"> Carl's Jr. Launches Its First Plant-Based Burger </a>
+
+                                              <br>
+                                              <br>
+                                                      </div>
+                                          
+                              
+                                                    <br>
+                                                    <br>
+                                                  <br>         
+                                                   <div class="container" id="secondary">
+                                                  <div class="row" id="secondary">
+                                                    <div class="col" id="secondary">
+                                                      <img src="whitecastle.png" width="170px" alt=""><a id="sidetitles" href=https://www.google.com/search?q=white+castle+plant-based&ie=utf-8&oe=utf-8&client=firefox-b-1-ab">
+                                                        White Castle Expands Impossible Burger Sliders Nationwide
+                                                      </a>  
+                                                      <br>
+                <br>
+                        </div>
+            
+
+                      <br>
+                      <br>
+                    <br>        
+                                                           <div class="container" id="secondary">
+                                                      <div class="row" id="secondary">
+                                                        <div class="col" id="secondary">
+                                                          <img src="Beyondmeat1.jpg" width="170px" alt=""><a id="sidetitles" href="https://www.nytimes.com/2019/04/22/technology/beyond-meat-details-plans-for-initial-public-offering.html
+                                                          ">
+                                                          Beyond Meat Valued at $1.2 Billion As It Prepares for Historic IPO
+                                                        </a>   
+                                                        <br>
+                <br>
+                        </div>
+            
+
+                      <br>
+                      <br>
+                    <br>         
+                                                        
+                                                        <div class="container" id="secondary">
+                                                          <div class="row" id="secondary">
+                                                            <div class="col" id="secondary">
+                                                              <img src="pieology.png" width="300px" alt=""><a id="sidetitles" href="https://www.qsrmagazine.com/news/pieology-introduces-three-new-plant-based-protein-toppings-menu">Pieology Now Offering Plant-Based Meat Toppings
+                                                              </a>
+                                                              <br>
+                                                              <br>
+                                                                      </div>
+                                                          
+                                              
+                                                                    <br>
+                                                                    <br>
+                                                                  <br>
+
+                                                            <div class="container" id="secondary">
+                                                                <div class="row" id="secondary">
+                                                                  <div class="col" id="secondary">
+                                                                    <img src="Beyondmeat.jpg" width="300px" alt=""><a id="sidetitles" href="https://www.qsrmagazine.com/news/pieology-introduces-three-new-plant-based-protein-toppings-menu"> Beyond Meat Prepares to Launch Historic IPO"
+                                                                  </a>          
+                                                                  <br>
+                                                                  <br>
+                                                                          </div>
+                                                              
+                                                  
+                                                                        <br>
+                                                                        <br>
+                                                                      <br>
+                                                                  <div class="container" id="secondary">
+                                                                        <div class="row" id="secondary">
+                                                                        <div class="col" id="secondary">
+                                                                          <img src="carlsjr.png" width="300px" alt=""><a id="sidetitles" href="https://www.ispot.tv/ad/IBgd/carls-jr-beyond-famous-star-burger-plant-based-burger-patty">
+                                                                            Carl's Jr. Makes History with 1st Super Bowl Ad for Plant-Based Meat
+                                                                        </a>
+                                                                        <br>
+                <br>
+                        </div>
+            
+
+                      <br>
+                      <br>
+                    <br>
+                                                                        <div class="container"id="secondary">
+                                                                            <div class="row" id="secondary">
+                                                                              <div class="col" id="secondary">
+                                                                                <img src="Beyondmeat.jpg" width="300px" alt=""><a id="sidetitles" href="https://www.foodandwine.com/beyond-meat-ground-meat">
+                                                                                Beyond Meat to Launch Raw Ground Beef Product
+
+                                                                              </a>
+    </div>
+    </div>
+    </div>
+
+
+
+  </div>
+
+</div>
+<br>
+
+
+  
+  </section>
+  
+  <br>
+<br>
+<br>
+  <footer>
+    <p>New Omnivore Inc, Copyright &copy; 2010</p>
+  </footer>
+  
+  
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
